@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de textos</title>
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b> termo em negrito</b> usando a tag B(não semântica).</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> sando a tag STRONG (SEMÂNTICA).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM(Semântica).</p>
+    <h2>Texto Marcado</h2>
+    <p>Nesta frase, temos um <mark>termo demarcado</mark> usando a tag MARK.</p>
+    <h2>Texto Deletado</h2>
+    <p><del>O texto escrito pode até ser lido, mas deve ser desconsiderado</del> pelo leitor.</p>
+    <h2>Texto Inserido</h2>
+    <p><ins>O texto escrito, deve ser lido e você deve prestar atenção nele.</ins> Usando a tag INS. É o que fazíamos anteriormente ao utilizar a tag &lt; u &gt; para sublinhar um texto.</p>
+    <h2>Textos Sobrescrito e Subscrito</h2>
+    <p>Nesta frase, temos um termo X <sup>2</sup>  (superscript) É o texto que fica em cima. A tag utilizada para isso é &lt; sup &gt; .</p>
+    <p>Nesta frase, temos um termo X<sub>2</sub> (subscript) É o texto que fica embaixo. A tag utilizada para isso é &lt; sub &gt; .</p>
+    <h2>Trechos de Código</h2>
+    <p>Exemplo de código em python:</p>
+    <code>
+        <pre>
+    num = int (input('Digite um número'))
+    if num % 2 ==0:
+        print(f'0 número {num} é par)
+    else:
+        print(f'0 número {num} é ímpar)
+    print ('FIM DO PROGRAMA')
+        </pre>
+    </code>
+    <p>Neste exemplo utlizamos as tags  &lt;code&gt; e &lt;pre&gt;.</p>
+    <p> A tag <mark>pre</mark> que mantém o texto pré-formatado, exatamente da mesma maneira na qual ele foi digitado, incluindo quebras de linhas, espaços e tabulações.</p>
+    <p>A tag <mark>code</mark> a representa, indicando ao navegador que se trata de um código de computador. </p>
+    <h2>Texto Citado</h2>
+    <h3>Exemplo de citação simples usando a tag &lt;q&gt; :</h3>
+    <p> O texto que estiver entre &lt; q &gt; já vai receber automaticamente as aspas, mas não terá nenhum deslocamento.</p>
+    <p>Como diria o pai de uma amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h3>Exemplo de citação completa usando a tag &lt; blockquote &gt; :</h3>
+    <p>Segundo Gustavo Gunabara:</p>
+    <blockquote cite="https://x.com/guanabara/status/1502210522510508037">Não, NÃO DÁ pra começar a estudar programação e em 6 MESES conseguir R$5 mil/mês. Declarações assim são irresponsáveis e criam muita decepção em quem não consegue atingir esse “meta” irreal. Programar exige prática e dedicação. Você consegue, mas vai precisar de mais tempo! 
+        <a href="https://x.com/guanabara/status/1502210522510508037" target="_blank">Fonte: Post x.com/guanabara</a>    
+    </blockquote>
+    <p>No exemplo a cima vimos <strong>um paragrafo e um hyperlink</strong>. </p>
+    <p>O hyperlink é usado através da  tag &lt; a &gt; e o atributo target="_blank" na tag a em HTML é usado para especificar que o link deve ser aberto em uma nova aba ou janela do navegador quando o usuário clicar nele. </p>  
+    <h2>Texto Abreviado</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> para criar sites.</p>
+    <p>Sempre que você quiser escrever uma sigla, mas 
+        deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag &lt; abbr &gt; </p>
+    <h2><bdo dir="rtl">Texto Invertido</bdo></h2>
+    <p>Não entendeu nada desse título? Pois volte ali em cima e leia da última letra até a primeira. Achou inútil? Eu também. Pois é exatamente essa a função da tag &lt;bdo&gt;. </p>
+    <p> <pre>
+        rtl = da direita para a esquerda (right-to-left)
+        ltr = da esquerda para a direita (left-to-right)
+    </pre></p>
+    <bdo dir="rtl">Este texto está todo invertido no formato RIGHT-TO-LEFT </bdo>
+    
+</body>
+</html>
