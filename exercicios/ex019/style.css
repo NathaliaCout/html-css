@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*  
+    Em HTML é ID = em CSS é '#'
+    (Um ID deve ser único em uma página HTML, ou seja, pode ser aplicado a apenas um elemento.)
+
+    Em HTML é class = em CSS é '.'
+    (Uma classe pode ser aplicada a múltiplos elementos, permitindo reutilização.)
+
+    A especificidade de um ID (#id) é alta, enquanto a de uma classe (.class) é média. 
+      Isso significa que estilos definidos por IDs terão prioridade sobre estilos definidos por classes.
+
+    Resumindo: 
+    ID (maior prioridade) > Classe (prioridade média)
+*/
+
+body{
+    background-color: #8FC1B5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #007566;
+}
+
+/* Seletor h1#principal (No caso id="principal" está sendo personalizada) */
+h1#principal{
+    text-align: center;
+    background-color: #007566; ;
+    color: white;
+}
+
+h2{
+    color: #265C4B;
+    font-weight: bold;
+}
+
+/* Class basico */
+.basico{
+    color: #265C4B;
+}
+
+/* Class intermediario */
+.intermediario{
+    color: #5c5b26;
+}
+
+/* Class avancado */
+.avancado{
+    color: #5c2626;
+}
+
+/* Class destaque*/
+.destaque{
+    background-color: rgba(161, 167, 102, 0.705);
+}
