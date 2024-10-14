@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Ciaxas</title>
     <style>
-        h1{
+        h1{ /* Exemplo de uma caixa box-level*/
             background-color: lightgray;
             height: 300px;
             width: 300px;
@@ -14,22 +14,58 @@
             border-style: solid;
             border-color: darkslategray;
 
+            /* 
+                Forma resumida de definir a borda:
+                border: 10px solid darkslategray;
+            */
+
             padding-top: 10px;
             padding-right: 10px;
             padding-bottom: 10px;
             padding-left: 10px;
+
+            /*
+             Forma compacta de definir o padding
+             padding: 10px;
+            */           
+
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-left: auto;
+            
+
+            /*
+             Forma resumida para definir a margem 
+             margin: 20px auto 40px auto;
+            */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;            
+
+            /*
+              Forma resumida de definir o outline
+             outline: 5px dashed salmon;
+            */
 
         }
 
-        a{
+        a{ /* Exemplo de uma caixa inline-level */
+            /*
             border-width: 5px;
             border-style: dashed;
-            border-color: red;
+            border-color: red;*/
 
+            border: 5px dashed red;
+
+            /*
             padding-top: 10px;
             padding-right: 10px;
             padding-bottom: 10px;
-            padding-left: 10px;
+            padding-left: 10px;*/
+
+            padding: 10px;
         }
     </style>
 </head>
