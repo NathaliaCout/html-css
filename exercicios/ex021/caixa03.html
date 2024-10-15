@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        h1{
+            border: 20px solid black; /* Atributo 'border' é necessário para que o 'border-image' funcione */
+            padding: 10px;
+            border-image-source: url('borda.png'); /* Define a imagem usada na borda */
+            border-image-slice: 27; /* Controla como a imagem será dividida em partes */
+            border-image-repeat: repeat; /* Faz com que a imagem se repita ao longo da borda */
+
+            /*
+                Nota: Para funcionar corretamente, é necessário definir um valor para 'border'.
+                A propriedade combinada pode ser utilizada da seguinte forma:
+
+                border-image: url ('borda.png') 27 repeat;
+
+                Isso simplifica a declaração, agrupando as configurações de imagem, fatia e repetição.
+
+                **Opções de repetição do 'border-image-repeat':**
+                - **repeat**: Repete a imagem ao longo da borda.
+                - **stretch**: Estica a imagem para preencher a borda.
+                - **round**: Repete a imagem, mas ajusta a quantidade para caber exatamente (sem cortar).
+                - **space**: Adiciona espaços entre as repetições para preenchimento uniforme.
+            
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+    
+</body>
+</html>
