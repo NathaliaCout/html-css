@@ -22,6 +22,7 @@ header{
 
    header > p{
     text-align: center;
+    padding: 10px;
     
    }
 
@@ -69,7 +70,8 @@ nav > a{
 
 }
 img{
-    justify-content: center;
+    max-width: 100%;
+    height: auto;
 }
 
 #video{
