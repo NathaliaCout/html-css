@@ -36,11 +36,11 @@ header{
    }
 
    #versao h2{
-    background-image: linear-gradient(to right 156, 241, 199 white);
-    background-color: rgb(156, 241, 199);
+    background-image: linear-gradient(to right, rgb(156, 241, 199), white);
     }
 
     #tema h2{
+        background-image: linear-gradient(to right, rgb(156, 241, 199), white);
         background-color: rgb(156, 241, 199);
     }
     #extra h3{
@@ -66,6 +66,17 @@ nav > a{
     text-decoration: none;
     color: white;
     padding: 10px;
+
+}
+img{
+    justify-content: center;
+}
+
+#video{
+    
+    background-color: rgb(21, 61, 21);    
+    padding: 20px;
+      
 
 }
 
