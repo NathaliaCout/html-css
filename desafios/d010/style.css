@@ -61,8 +61,12 @@ nav{
 main{
     background-color: white;
     width: 800px;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main h1{
@@ -73,7 +77,11 @@ main h2{
     font-family: var(--fonte-android);
 }
 
+#img-pequena img{
+    display: block;
+    margin: auto;
 
+}
 
 #versao h2{
     background-image: linear-gradient(to right, rgb(156, 241, 199), white);
