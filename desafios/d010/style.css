@@ -90,10 +90,13 @@ nav > a:hover{
 
 main{
     background-color: white;
-    width: 800px;
-    padding: 20px;
+    /*width: 800px;
+    */
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
+    padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -141,7 +144,12 @@ main a:hover{
     color: var(--cor4);
 }
 
-#img-pequena img {
+img{
+    width: 100%;
+}
+
+#img-pequena {
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -167,12 +175,32 @@ aside > ul {
     list-style-type: '\2714\00A0\00A0';
 }
 
-#video{  
+/*#video{  
     display: block; 
     background-color: rgb(21, 61, 21);    
     padding: 20px;
     margin: auto;
     }
+
+    */
+
+#video {
+    background-color: var(--cor5);
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+#video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 
 footer{
     background-color: var(--cor5);
@@ -191,4 +219,25 @@ footer a {
 footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav > a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #video {
+        margin: 0 -10px 30px -10px;
+    }
 }
