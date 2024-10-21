@@ -87,11 +87,8 @@ nav > a:hover{
     color: var(--cor5);
 }
 
-
 main{
     background-color: white;
-    /*width: 800px;
-    */
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
@@ -174,15 +171,6 @@ aside > ul {
     columns: 2;
     list-style-type: '\2714\00A0\00A0';
 }
-
-/*#video{  
-    display: block; 
-    background-color: rgb(21, 61, 21);    
-    padding: 20px;
-    margin: auto;
-    }
-
-    */
 
 #video {
     background-color: var(--cor5);
