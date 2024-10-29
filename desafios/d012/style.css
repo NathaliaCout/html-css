@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-
-
 :root{
     --fonte-sriracha: 'Sriracha', cursive;
     --fonte-titulo: 'passion-one', sans-serif;
@@ -18,29 +16,31 @@
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .passion-one-regular {
-    font-family: "Passion One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .passion-one-bold {
-    font-family: "Passion One", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .passion-one-black {
-    font-family: "Passion One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
+.passion-one-regular {
+font-family: "Passion One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.passion-one-bold {
+font-family: "Passion One", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.passion-one-black {
+font-family: "Passion One", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
   
 
 body{
-
+    color: white;
+    margin: 0px;
+    height: 98vh;
 }
 
 header{
@@ -49,7 +49,7 @@ header{
     color: white;
     text-align: center;
     padding: 10px;
-
+    font-size: 50px;
 }
 
 h2{
@@ -58,52 +58,57 @@ h2{
 
 main{
     background-color: white;
-    padding: 10px;
+    
+    
 }
 
-#a1{
-    display: block;
+div.caixa{
+    color: black;
+    
+}
+
+div.texto{
     text-align: left;
-    height: 400px;
-    width: 400px;
+    max-width: 500px;
+    font-size: 30px;
+    padding: 40px;
+    color: black;
+    
+}
+
+div.textob{
+    text-align: left;
+    max-width: 500px;
+    font-size: 30px;
+    padding: 40px;
+    color: white;
+    
+}
+.textob h2{
+    background-color: rgba(0, 0, 0, 0.322);
+    margin: 10px;
     
 }
 
 #a2{
     background-image: url('imagens/background001.jpg');
-    display: block;
-    text-align: left;
-    height: 96vh;
-    
-}
-
-#a3{
-    display: block;
-    text-align: left;
-    height: 400px;
-    width: 400px;
-    
+    background-attachment: fixed;    
 }
 
 #a4{
-    display: block;
-    text-align: left;
-    height: 400px;
-    width: 400px;
-    
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+
 }
 
-#a5{
-    display: block;
-    text-align: left;
-    height: 400px;
-    width: 400px;
-    
+#t2 h2{
+    color:  white;
 }
 
 footer{
     background-color: black;
     color: white;
     padding: 10px;
-
-}
+    font-size: 20px;
+    text-align: center;
+   }
