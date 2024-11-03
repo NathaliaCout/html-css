@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #container{
+            position: relative;
+            display: flex;
+            height: 98vh;
+           
+            background-color: purple;
+
+        }
+
+        #conteudo{
+            
+            height: 100%;
+            width: 30vw;
+            background-color: yellow;
+            display: flex;
+        }
+        
+        #cabeçalho{
+            position: absolute;
+            background-color: blue;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+        }
+
+        #box-branco{
+            background-color: rgb(205, 212, 206);
+            height: 85%;
+            width: 85%;
+            margin:  auto 20px;
+            padding: 10px;
+       
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <div id="cabeçalho">
+            <p>menu</p>
+
+        </div>
+        <article id="conteudo">
+            <p>nathalia</p>
+
+
+            
+
+        </article>
+        <article id="box-branco">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, illum deserunt facere minima a vero corporis facilis placeat eaque. Saepe soluta possimus tempora quia repellat, libero cupiditate vitae ducimus et.</p>
+        </article>
+
+    </section>
+    
+</body>
+</html>
