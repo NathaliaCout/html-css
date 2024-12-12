@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+    <style>
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+            position: relative;
+        }
+
+        td, th{
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        caption{
+            background-color: rgb(73, 153, 199);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: rgb(179, 216, 238);
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(179, 216, 238);
+        }
+
+        tbody > tr:nth-child(2n -1){
+            background-color: rgb(225, 241, 243);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Tabela 02 - Exemplo</h1>
+
+    <table>
+
+        <caption>Tabela</caption>
+        <thead>
+            <tr>
+                <th scope="col">Indivíduo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Consumo de água ao dia</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>10</td>
+                <td>8x</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>8</td>
+                <td>6x</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>12</td>
+                <td>10x</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>9</td>
+                <td>7x</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>11</td>
+                <td>9x</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                
+                <td colspan="2">40x</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam temporibus eveniet veritatis architecto ut omnis eligendi cum ex velit neque quasi quos, reiciendis nobis nam exercitationem sunt odit at numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam mollitia officia, sapiente, id illum rerum voluptatem animi, a quasi suscipit eligendi nesciunt incidunt ab soluta. Ducimus eaque totam facilis provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates iusto delectus consequatur asperiores quo, maxime ipsam. Fugit vitae corrupti culpa, aut quidem inventore autem quis cumque, itaque expedita, accusamus cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nam nobis maiores! Facilis, accusamus sed dolor cupiditate rem molestiae ipsum enim necessitatibus atque rerum tempora temporibus eos adipisci voluptas placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime eos, alias non nulla ducimus veritatis rem, perspiciatis id deserunt illo enim cumque, expedita soluta mollitia optio doloremque ad aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ad dolor itaque qui voluptates blanditiis et voluptatem repellat ipsa aperiam! Eum, quaerat cum voluptas delectus laudantium ratione officia suscipit nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem praesentium unde blanditiis quasi fugit illo quas consequuntur fugiat nam? Vel odio ipsum exercitationem deserunt dolore quod, maiores aut iste blanditiis.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam temporibus eveniet veritatis architecto ut omnis eligendi cum ex velit neque quasi quos, reiciendis nobis nam exercitationem sunt odit at numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam mollitia officia, sapiente, id illum rerum voluptatem animi, a quasi suscipit eligendi nesciunt incidunt ab soluta. Ducimus eaque totam facilis provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates iusto delectus consequatur asperiores quo, maxime ipsam. Fugit vitae corrupti culpa, aut quidem inventore autem quis cumque, itaque expedita, accusamus cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nam nobis maiores! Facilis, accusamus sed dolor cupiditate rem molestiae ipsum enim necessitatibus atque rerum tempora temporibus eos adipisci voluptas placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime eos, alias non nulla ducimus veritatis rem, perspiciatis id deserunt illo enim cumque, expedita soluta mollitia optio doloremque ad aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ad dolor itaque qui voluptates blanditiis et voluptatem repellat ipsa aperiam! Eum, quaerat cum voluptas delectus laudantium ratione officia suscipit nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem praesentium unde blanditiis quasi fugit illo quas consequuntur fugiat nam? Vel odio ipsum exercitationem deserunt dolore quod, maiores aut iste blanditiis.</p>
+    
+</body>
+</html>
